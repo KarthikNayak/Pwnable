@@ -1,0 +1,2 @@
+See the operator and their priority, basically theres a '=' and a '<' without proper priority set.
+so it reads from STDIN and compares. Use 0000000000 and 111111111.

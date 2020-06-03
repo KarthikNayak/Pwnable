@@ -1,0 +1,1 @@
+Check with radare2, you'll notice that the var is stored at ebp+0x8 and the other one is ebp-0x2c so just fill with void and the answer, check exploit.py.

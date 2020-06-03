@@ -1,0 +1,4 @@
+mommy now I get what PATH environment is for :)
+
+1. The path is set to some random place, so you'll have to use full paths to run cmds. 
+2. just pip ls > cat and print the flag ;)

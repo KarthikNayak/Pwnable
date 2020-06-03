@@ -1,0 +1,4 @@
+1. The scanf doesn't take &, so no pointers.
+2. The welcome uses a variable whose value is on the stack.
+3. One of the ints in login() uses the address from above.
+4. Overwrite the global table to jmp to required address

@@ -1,0 +1,16 @@
+So we finally need 568134124 (0x21DD09EC). Which is 
+(113626824 * 4) + 113626828
+
+so each 4 chars => 1 int; therefore we just need to get 8bits and get the character from it.
+113626824 = 00000110110001011100111011001000
+113626828 = 00000110110001011100111011001100
+
+
+Split these into chars (8bits).
+
+113626824 = 00000110 11000101 11001110 11001000 => 06C5CEC8
+113626828 = 00000110 11000101 11001110 11001100 => 06C5CECC
+
+./col $(python -c 'print "\xc8\xce\xc5\x06" * 4 + "\xcc\xce\xc5\x06"')
+
+ 

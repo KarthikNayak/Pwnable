@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/18330902/program-counter-in-arm-assembly
+
+Basically in ARM PC is 8 bytes ahead of the current instruction unless in trunk mode.
+
+Therefore:
+1. key1: 0x8ce4
+2. key2: 0x8d08 + 4
+3. key3: 0x8d80
